@@ -1,0 +1,16 @@
+{
+    "download": [
+        {
+            "name": "NAME_1",
+            "url": "/OWNER_NAME_1/COLLECTION_NAME_1",
+            "password": "XXXXXXXXXXXXXX"
+        },
+        {
+            "name": "NAME_2",
+            "url": "/OWNER_NAME_2/COLLECTION_NAME_2",
+            "password": "XXXXXXXXXXXXXX"
+        },
+    ],
+    "WGET_BIN": "/usr/bin/wget",
+    "OUTPUT_DIR": "/media/VimeoCollections"
+}
