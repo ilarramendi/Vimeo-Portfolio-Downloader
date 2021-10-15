@@ -6,10 +6,11 @@ This script can also be used to generate direct links to Vimeo-PRO videos that c
 This was developed to automaticaly download new videos from a certain institution 👀 (no names given) but should work with any Vimeo-Pro portfolio that is password protected, it can be easily modified (not implemented) to download videos from collections without password or from vimeo.com insted of vimeopro.com, the video file selected is the highest resolution available.
 
 ## USAGE
-1) Clone repository
-2) Install requeriments (only `requests`)
-3) Edit `config.json`:  
-&nbsp;&nbsp;&nbsp;&nbsp;`WGET_BIN`: Path to wget binary (is set to work with linux by default)  
+1) Clone repository (`git clone https://github.com/ilarramendi/Vimeo-Portfolio-Downloader`)
+2) install requests `pip3 install requests`
+3) Install WGET `sudo apt install wget`
+4) Edit `config.json`:  
+&nbsp;&nbsp;&nbsp;&nbsp;`WGET_BIN`: Path to wget binary (`whereis wget`)  
 &nbsp;&nbsp;&nbsp;&nbsp;`OUTPUT_DIR`: Output directory (file names explained later)  
 &nbsp;&nbsp;&nbsp;&nbsp;`DOWNLOAD`: Array with multiple collections to download:  
 &nbsp;&nbsp;&nbsp;&nbsp;> `NAME`: Name to save the collection  
